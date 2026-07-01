@@ -2,7 +2,7 @@
 #define STACK_H
 
 // El stack se implementa sobre una lista enlazada simple
-// El "tope" de la pila es siempre la cabeza de la lista (head)
+// El tope del stack es siempre el head de la lista
 typedef struct StackNode {
     int data;
     struct StackNode *next;
